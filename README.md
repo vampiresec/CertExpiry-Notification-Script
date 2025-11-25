@@ -1,5 +1,5 @@
 # CertExpiry Notification Script
-A PowerShell-based automation solution that monitors SSL/TLS certificate expiration dates in PingFederate connections and proactively notifies application owners before certificates expire.
+A PowerShell-based automation solution that monitors self signed and the SP certificate expiration dates in PingFederate connections and proactively notifies application owners before certificates expire.
 ## Overview
 This script leverages the PingFederate Admin API to automatically fetch connection and certificate expiry information, then sends timely email notifications to application owners at critical intervals to prevent service disruptions due to expired certificates.
 

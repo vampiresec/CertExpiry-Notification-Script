@@ -2,7 +2,7 @@
 .SYNOPSIS
     A Script to send cert expiry email notifications application/ business owners
 .EXAMPLE
-    .\CertExpiryNotification.ps1
+    .\CertExpiryNotification.ps1 -Environment [nonprod|prod]
 .NOTES
     Author: Chaitanya Chavan <chaitanyachavan118@gmail.com>
 #>
